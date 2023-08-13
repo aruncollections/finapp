@@ -45,3 +45,10 @@ In this file, the following services have been defined:
 
 Please review the tags of the used images and set them to the same as you're running in production.
 
+## How to run the code
+Run with gradle using the following command:
+
+* ./gradlew clean -x test bootRun
+  (or) 
+* ./gradlew clean -x test bootRun -stacktrace
+
